@@ -13,7 +13,7 @@ export default function Login() {
   const handleSubmit = () => {
     if (Uname === username && Upwd === password) {
       alert("Login Successfully");
-      navigate("/dashbord");
+      navigate("/dashboard");
     } else {
       alert("Login Failure");
     }
